@@ -1,0 +1,10 @@
+systemd/
+logs/
+comms/
+certs/
+gcodes/
+backup/
+moonraker.asvc
+misc/usb.ids
+.moonraker.uuid
+.theme/
