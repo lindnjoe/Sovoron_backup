@@ -5,6 +5,7 @@ klippy_uds_address: /home/pii/printer_data/comms/klippy.sock
 
 [authorization]
 trusted_clients:
+    192.168.0.0/16
     10.0.0.0/8
     127.0.0.0/8
     169.254.0.0/16
@@ -28,15 +29,15 @@ cors_domains:
 channel: dev
 refresh_interval: 168
 
-[update_manager mainsail-config]
-type: git_repo
-primary_branch: master
-path: ~/mainsail-config
-origin: https://github.com/mainsail-crew/mainsail-config.git
-managed_services: klipper
-
 [update_manager mainsail]
-type: web
-channel: stable
+path: /home/pii/mainsail
 repo: mainsail-crew/mainsail
-path: ~/mainsail
+channel: stable
+type: web
+
+[update_manager mainsail-config]
+managed_services: klipper
+origin: https://github.com/mainsail-crew/mainsail-config.git
+path: /home/pii/mainsail-config
+primary_branch: master
+type: git_repo
