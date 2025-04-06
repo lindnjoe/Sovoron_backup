@@ -94,12 +94,3 @@ path: ~/klipper_openams
 origin: https://github.com/openamsorg/klipper_openams.git
 
 
-
-
-[update_manager ktamv]]
-type: git_repo
-path: ~/kTAMV
-origin: https://github.com/TypQxQ/kTAMV.git
-primary_branch: main
-install_script: install.sh
-managed_services: klipper
