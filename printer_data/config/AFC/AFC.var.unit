@@ -11,7 +11,7 @@
             "map": "TT0",
             "load": true,
             "prep": true,
-            "tool_loaded": false,
+            "tool_loaded": true,
             "loaded_to_hub": true,
             "material": null,
             "spool_id": "",
@@ -21,7 +21,7 @@
             "runout_lane": "NONE",
             "filament_status": "In Tool",
             "filament_status_led": "#0000ff",
-            "status": "Error"
+            "status": "Tool Unloading"
         }
     },
     "Turtle_2": {
