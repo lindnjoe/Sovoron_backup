@@ -21,7 +21,7 @@
             "runout_lane": "NONE",
             "filament_status": "Prep",
             "filament_status_led": "#ffffff",
-            "status": "Tool Loading"
+            "status": "None"
         }
     },
     "Turtle_2": {
