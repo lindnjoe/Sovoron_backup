@@ -3,7 +3,7 @@
         "lane1": {
             "name": "lane1",
             "unit": "Turtle_1",
-            "hub": "Turtle_1",
+            "hub": "direct",
             "extruder": "extruder",
             "buffer": null,
             "buffer_status": null,
@@ -26,8 +26,8 @@
         "lane2": {
             "name": "lane2",
             "unit": "Turtle_1",
-            "hub": "Turtle_1",
-            "extruder": "extruder",
+            "hub": "direct",
+            "extruder": "extruder1",
             "buffer": null,
             "buffer_status": null,
             "lane": 2,
@@ -49,8 +49,8 @@
         "lane3": {
             "name": "lane3",
             "unit": "Turtle_1",
-            "hub": "Turtle_1",
-            "extruder": "extruder",
+            "hub": "direct",
+            "extruder": "extruder2",
             "buffer": null,
             "buffer_status": null,
             "lane": 3,
@@ -72,8 +72,8 @@
         "lane4": {
             "name": "lane4",
             "unit": "Turtle_1",
-            "hub": "Turtle_1",
-            "extruder": "extruder",
+            "hub": "direct",
+            "extruder": "extruder3",
             "buffer": null,
             "buffer_status": null,
             "lane": 4,
@@ -97,9 +97,9 @@
         "current_load": null,
         "num_units": 1,
         "num_lanes": 4,
-        "num_extruders": 1,
+        "num_extruders": 4,
         "extruders": {
-            "extruder": {
+            "extruder, extruder1, extruder2, extruder3": {
                 "lane_loaded": null
             }
         },
