@@ -71,7 +71,7 @@
             "runout_lane": "NONE",
             "filament_status": "Ready",
             "filament_status_led": "#00cc00",
-            "status": "Error"
+            "status": "Loaded"
         }
     },
     "Turtle_4": {
@@ -112,7 +112,7 @@
                 "lane_loaded": null
             },
             "extruder2": {
-                "lane_loaded": ""
+                "lane_loaded": null
             },
             "extruder3": {
                 "lane_loaded": null
