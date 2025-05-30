@@ -27,7 +27,7 @@
             "name": "lane2",
             "unit": "Turtle_1",
             "hub": "Turtle_1",
-            "extruder": "extruder",
+            "extruder": "extruder1",
             "buffer": null,
             "buffer_status": null,
             "lane": 2,
@@ -50,7 +50,7 @@
             "name": "lane3",
             "unit": "Turtle_1",
             "hub": "Turtle_1",
-            "extruder": "extruder",
+            "extruder": "extruder2",
             "buffer": null,
             "buffer_status": null,
             "lane": 3,
@@ -73,7 +73,7 @@
             "name": "lane4",
             "unit": "Turtle_1",
             "hub": "Turtle_1",
-            "extruder": "extruder",
+            "extruder": "extruder3",
             "buffer": null,
             "buffer_status": null,
             "lane": 4,
@@ -97,7 +97,7 @@
         "current_load": null,
         "num_units": 1,
         "num_lanes": 4,
-        "num_extruders": 2,
+        "num_extruders": 4,
         "extruders": {
             "extruder": {
                 "lane_loaded": null
