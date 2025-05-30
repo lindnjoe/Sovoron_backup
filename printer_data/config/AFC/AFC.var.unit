@@ -22,12 +22,14 @@
             "filament_status": "Ready",
             "filament_status_led": "#00cc00",
             "status": "Loaded"
-        },
+        }
+    },
+    "Turtle_2": {
         "lane2": {
             "name": "lane2",
-            "unit": "Turtle_1",
-            "hub": "Turtle_1",
-            "extruder": "extruder",
+            "unit": "Turtle_2",
+            "hub": "Turtle_2",
+            "extruder": "extruder1",
             "buffer": null,
             "buffer_status": null,
             "lane": 2,
@@ -35,22 +37,24 @@
             "load": true,
             "prep": true,
             "tool_loaded": false,
-            "loaded_to_hub": true,
+            "loaded_to_hub": false,
             "material": null,
-            "spool_id": "",
-            "color": "",
-            "weight": "",
+            "spool_id": null,
+            "color": null,
+            "weight": null,
             "extruder_temp": null,
             "runout_lane": "NONE",
             "filament_status": "Ready",
             "filament_status_led": "#00cc00",
             "status": "Loaded"
-        },
+        }
+    },
+    "Turtle_3": {
         "lane3": {
             "name": "lane3",
-            "unit": "Turtle_1",
-            "hub": "Turtle_1",
-            "extruder": "extruder",
+            "unit": "Turtle_3",
+            "hub": "Turtle_3",
+            "extruder": "extruder2",
             "buffer": null,
             "buffer_status": null,
             "lane": 3,
@@ -68,12 +72,14 @@
             "filament_status": "Not Ready",
             "filament_status_led": "#ff0000",
             "status": null
-        },
+        }
+    },
+    "Turtle_4": {
         "lane4": {
             "name": "lane4",
-            "unit": "Turtle_1",
-            "hub": "Turtle_1",
-            "extruder": "extruder",
+            "unit": "Turtle_4",
+            "hub": "Turtle_4",
+            "extruder": "extruder3",
             "buffer": null,
             "buffer_status": null,
             "lane": 4,
@@ -95,14 +101,20 @@
     },
     "system": {
         "current_load": null,
-        "num_units": 1,
+        "num_units": 4,
         "num_lanes": 4,
-        "num_extruders": 2,
+        "num_extruders": 4,
         "extruders": {
             "extruder": {
                 "lane_loaded": null
             },
             "extruder1": {
+                "lane_loaded": null
+            },
+            "extruder2": {
+                "lane_loaded": null
+            },
+            "extruder3": {
                 "lane_loaded": null
             }
         },
