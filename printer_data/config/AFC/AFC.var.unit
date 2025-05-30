@@ -12,7 +12,7 @@
             "load": false,
             "prep": true,
             "tool_loaded": false,
-            "loaded_to_hub": true,
+            "loaded_to_hub": false,
             "material": null,
             "spool_id": "",
             "color": "",
@@ -21,7 +21,7 @@
             "runout_lane": "NONE",
             "filament_status": "Prep",
             "filament_status_led": "#ffffff",
-            "status": "Ejecting"
+            "status": "None"
         }
     },
     "Turtle_2": {
