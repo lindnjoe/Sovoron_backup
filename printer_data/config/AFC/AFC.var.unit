@@ -46,7 +46,7 @@
             "runout_lane": "NONE",
             "filament_status": "Ready",
             "filament_status_led": "#00cc00",
-            "status": "None"
+            "status": "Loaded"
         }
     },
     "Turtle_3": {
@@ -71,7 +71,7 @@
             "runout_lane": "NONE",
             "filament_status": "Ready",
             "filament_status_led": "#00cc00",
-            "status": "None"
+            "status": "Loaded"
         }
     },
     "Turtle_4": {
@@ -96,7 +96,7 @@
             "runout_lane": "NONE",
             "filament_status": "Ready",
             "filament_status_led": "#00cc00",
-            "status": "None"
+            "status": "Loaded"
         }
     },
     "system": {
@@ -109,13 +109,13 @@
                 "lane_loaded": "lane1"
             },
             "extruder1": {
-                "lane_loaded": ""
+                "lane_loaded": null
             },
             "extruder2": {
-                "lane_loaded": ""
+                "lane_loaded": null
             },
             "extruder3": {
-                "lane_loaded": ""
+                "lane_loaded": null
             }
         },
         "bypass": {
