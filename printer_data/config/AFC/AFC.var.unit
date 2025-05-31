@@ -46,7 +46,7 @@
             "runout_lane": "NONE",
             "filament_status": "Ready",
             "filament_status_led": "#00cc00",
-            "status": "None"
+            "status": "Loaded"
         }
     },
     "Turtle_3": {
@@ -96,20 +96,20 @@
             "runout_lane": "NONE",
             "filament_status": "In Tool",
             "filament_status_led": "#0000ff",
-            "status": "Tooled"
+            "status": "Loaded"
         }
     },
     "system": {
-        "current_load": null,
+        "current_load": "lane4",
         "num_units": 4,
         "num_lanes": 4,
         "num_extruders": 4,
         "extruders": {
             "extruder": {
-                "lane_loaded": ""
+                "lane_loaded": null
             },
             "extruder1": {
-                "lane_loaded": ""
+                "lane_loaded": null
             },
             "extruder2": {
                 "lane_loaded": null
