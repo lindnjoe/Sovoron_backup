@@ -56,7 +56,7 @@
             "hub": "Turtle_3",
             "extruder": "extruder2",
             "buffer": "TN2",
-            "buffer_status": "Trailing",
+            "buffer_status": "Advancing",
             "lane": 3,
             "map": "TT2",
             "load": true,
