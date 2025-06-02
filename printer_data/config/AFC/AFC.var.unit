@@ -6,7 +6,7 @@
             "hub": "Turtle_1",
             "extruder": "extruder",
             "buffer": "TN",
-            "buffer_status": "Advancing",
+            "buffer_status": "Unknown",
             "lane": 1,
             "map": "TT0",
             "load": true,
@@ -100,7 +100,7 @@
         "num_extruders": 4,
         "extruders": {
             "extruder": {
-                "lane_loaded": ""
+                "lane_loaded": null
             },
             "extruder1": {
                 "lane_loaded": "lane2"
