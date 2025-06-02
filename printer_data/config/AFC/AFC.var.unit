@@ -46,7 +46,7 @@
             "runout_lane": "NONE",
             "filament_status": "In Tool",
             "filament_status_led": "#0000ff",
-            "status": "Tooled"
+            "status": "Loaded"
         }
     },
     "Turtle_3": {
@@ -56,7 +56,7 @@
             "hub": "Turtle_3",
             "extruder": "extruder2",
             "buffer": "TN2",
-            "buffer_status": "Advancing",
+            "buffer_status": "Unknown",
             "lane": 3,
             "map": "TT2",
             "load": true,
@@ -71,7 +71,7 @@
             "runout_lane": "NONE",
             "filament_status": "Ready",
             "filament_status_led": "#00cc00",
-            "status": "None"
+            "status": "Loaded"
         }
     },
     "Turtle_4": {
@@ -96,11 +96,11 @@
             "runout_lane": "NONE",
             "filament_status": "Ready",
             "filament_status_led": "#00cc00",
-            "status": "None"
+            "status": "Loaded"
         }
     },
     "system": {
-        "current_load": "lane1",
+        "current_load": "lane2",
         "num_units": 4,
         "num_lanes": 4,
         "num_extruders": 4,
@@ -112,10 +112,10 @@
                 "lane_loaded": "lane2"
             },
             "extruder2": {
-                "lane_loaded": ""
+                "lane_loaded": null
             },
             "extruder3": {
-                "lane_loaded": ""
+                "lane_loaded": null
             }
         },
         "bypass": {
