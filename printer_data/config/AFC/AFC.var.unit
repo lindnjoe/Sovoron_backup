@@ -29,7 +29,7 @@
             "hub": "Turtle_2",
             "extruder": "extruder1",
             "buffer": "TN1",
-            "buffer_status": "Unknown",
+            "buffer_status": "Advancing",
             "lane": 2,
             "map": "TT1",
             "load": true,
@@ -44,7 +44,7 @@
             "runout_lane": "NONE",
             "filament_status": "Ready",
             "filament_status_led": "#00cc00",
-            "status": "Loaded"
+            "status": null
         },
         "lane3": {
             "name": "lane3",
@@ -103,7 +103,7 @@
                 "lane_loaded": ""
             },
             "extruder1": {
-                "lane_loaded": null
+                "lane_loaded": ""
             },
             "extruder2": {
                 "lane_loaded": null
