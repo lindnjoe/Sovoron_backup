@@ -6,7 +6,7 @@
             "hub": "Turtle_1",
             "extruder": "extruder",
             "buffer": "TN",
-            "buffer_status": "Trailing",
+            "buffer_status": "Advancing",
             "lane": 1,
             "map": "TT0",
             "load": true,
@@ -29,7 +29,7 @@
             "hub": "Turtle_2",
             "extruder": "extruder1",
             "buffer": "TN1",
-            "buffer_status": "Advancing",
+            "buffer_status": "Unknown",
             "lane": 2,
             "map": "TT1",
             "load": true,
@@ -52,7 +52,7 @@
             "hub": "Turtle_3",
             "extruder": "extruder2",
             "buffer": "TN2",
-            "buffer_status": "Advancing",
+            "buffer_status": "Unknown",
             "lane": 3,
             "map": "TT2",
             "load": true,
@@ -103,13 +103,13 @@
                 "lane_loaded": "lane1"
             },
             "extruder1": {
-                "lane_loaded": ""
+                "lane_loaded": null
             },
             "extruder2": {
-                "lane_loaded": ""
+                "lane_loaded": null
             },
             "extruder3": {
-                "lane_loaded": ""
+                "lane_loaded": null
             }
         },
         "bypass": {
