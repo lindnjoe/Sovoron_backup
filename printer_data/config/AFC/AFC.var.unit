@@ -103,7 +103,7 @@
                 "lane_loaded": "lane1"
             },
             "extruder1": {
-                "lane_loaded": ""
+                "lane_loaded": null
             },
             "extruder2": {
                 "lane_loaded": null
