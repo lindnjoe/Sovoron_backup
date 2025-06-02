@@ -52,7 +52,7 @@
             "hub": "Turtle_3",
             "extruder": "extruder2",
             "buffer": "TN2",
-            "buffer_status": "Advancing",
+            "buffer_status": "Trailing",
             "lane": 3,
             "map": "TT2",
             "load": true,
@@ -67,7 +67,7 @@
             "runout_lane": "NONE",
             "filament_status": "Ready",
             "filament_status_led": "#00cc00",
-            "status": "Tool Loading"
+            "status": "Tool Loaded"
         },
         "lane4": {
             "name": "lane4",
