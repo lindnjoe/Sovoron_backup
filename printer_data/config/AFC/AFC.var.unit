@@ -21,7 +21,7 @@
             "runout_lane": "NONE",
             "filament_status": "Ready",
             "filament_status_led": "#00cc00",
-            "status": null
+            "status": "Loaded"
         },
         "lane2": {
             "name": "lane2",
@@ -29,7 +29,7 @@
             "hub": "Turtle_2",
             "extruder": "extruder1",
             "buffer": "TN1",
-            "buffer_status": "Advancing",
+            "buffer_status": "Unknown",
             "lane": 2,
             "map": "TT1",
             "load": true,
@@ -44,7 +44,7 @@
             "runout_lane": "NONE",
             "filament_status": "Ready",
             "filament_status_led": "#00cc00",
-            "status": null
+            "status": "Loaded"
         },
         "lane3": {
             "name": "lane3",
@@ -52,7 +52,7 @@
             "hub": "Turtle_3",
             "extruder": "extruder2",
             "buffer": "TN2",
-            "buffer_status": "Advancing",
+            "buffer_status": "Unknown",
             "lane": 3,
             "map": "TT2",
             "load": true,
@@ -67,7 +67,7 @@
             "runout_lane": "NONE",
             "filament_status": "Ready",
             "filament_status_led": "#00cc00",
-            "status": null
+            "status": "Loaded"
         },
         "lane4": {
             "name": "lane4",
@@ -90,7 +90,7 @@
             "runout_lane": "NONE",
             "filament_status": "Ready",
             "filament_status_led": "#00cc00",
-            "status": null
+            "status": "Loaded"
         }
     },
     "system": {
@@ -100,16 +100,16 @@
         "num_extruders": 4,
         "extruders": {
             "extruder": {
-                "lane_loaded": ""
+                "lane_loaded": null
             },
             "extruder1": {
-                "lane_loaded": ""
+                "lane_loaded": null
             },
             "extruder2": {
-                "lane_loaded": ""
+                "lane_loaded": null
             },
             "extruder3": {
-                "lane_loaded": ""
+                "lane_loaded": null
             }
         },
         "bypass": {
