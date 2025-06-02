@@ -6,7 +6,7 @@
             "hub": "Turtle_1",
             "extruder": "extruder",
             "buffer": "TN",
-            "buffer_status": "Advancing",
+            "buffer_status": "Unknown",
             "lane": 1,
             "map": "TT0",
             "load": true,
@@ -21,7 +21,7 @@
             "runout_lane": "NONE",
             "filament_status": "Ready",
             "filament_status_led": "#00cc00",
-            "status": "None"
+            "status": "Loaded"
         }
     },
     "Turtle_2": {
@@ -100,13 +100,13 @@
         }
     },
     "system": {
-        "current_load": null,
+        "current_load": "lane2",
         "num_units": 4,
         "num_lanes": 4,
         "num_extruders": 4,
         "extruders": {
             "extruder": {
-                "lane_loaded": ""
+                "lane_loaded": null
             },
             "extruder1": {
                 "lane_loaded": "lane2"
