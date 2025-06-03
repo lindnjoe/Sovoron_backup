@@ -26,7 +26,7 @@
         "lane2": {
             "name": "lane2",
             "unit": "Turtle_1",
-            "hub": "Turtle_2",
+            "hub": "direct",
             "extruder": "extruder1",
             "buffer": "TN1",
             "buffer_status": "Unknown",
@@ -49,7 +49,7 @@
         "lane3": {
             "name": "lane3",
             "unit": "Turtle_1",
-            "hub": "Turtle_3",
+            "hub": "direct",
             "extruder": "extruder2",
             "buffer": "TN2",
             "buffer_status": "Unknown",
@@ -72,7 +72,7 @@
         "lane4": {
             "name": "lane4",
             "unit": "Turtle_1",
-            "hub": "Turtle_4",
+            "hub": "direct",
             "extruder": "extruder3",
             "buffer": "TN3",
             "buffer_status": "Unknown",
