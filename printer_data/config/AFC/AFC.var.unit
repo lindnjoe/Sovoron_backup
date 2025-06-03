@@ -3,7 +3,7 @@
         "lane1": {
             "name": "lane1",
             "unit": "Turtle_1",
-            "hub": "Turtle_1",
+            "hub": "direct",
             "extruder": "extruder",
             "buffer": "TN",
             "buffer_status": "Advancing",
