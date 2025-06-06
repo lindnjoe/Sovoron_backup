@@ -8,7 +8,7 @@
             "buffer": "TN",
             "buffer_status": "Trailing",
             "lane": 1,
-            "map": "TT0",
+            "map": "T0",
             "load": true,
             "prep": true,
             "tool_loaded": true,
