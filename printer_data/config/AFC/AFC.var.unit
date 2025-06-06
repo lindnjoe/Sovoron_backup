@@ -10,7 +10,7 @@
             "lane": 1,
             "map": "TT0",
             "load": true,
-            "prep": false,
+            "prep": true,
             "tool_loaded": true,
             "loaded_to_hub": false,
             "material": null,
@@ -19,9 +19,9 @@
             "weight": "",
             "extruder_temp": null,
             "runout_lane": "NONE",
-            "filament_status": "Not Ready",
-            "filament_status_led": "#ff0000",
-            "status": null
+            "filament_status": "In Tool",
+            "filament_status_led": "#0000ff",
+            "status": "Tool Loading"
         },
         "lane2": {
             "name": "lane2",
