@@ -29,7 +29,7 @@
             "hub": "direct",
             "extruder": "extruder1",
             "buffer": "TN1",
-            "buffer_status": "Unknown",
+            "buffer_status": "Advancing",
             "lane": 2,
             "map": "TT1",
             "load": true,
