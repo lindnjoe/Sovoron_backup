@@ -32,19 +32,19 @@
             "buffer_status": "Advancing",
             "lane": 2,
             "map": "TT1",
-            "load": true,
-            "prep": true,
-            "tool_loaded": true,
-            "loaded_to_hub": true,
-            "material": "PLA",
+            "load": false,
+            "prep": false,
+            "tool_loaded": false,
+            "loaded_to_hub": false,
+            "material": null,
             "spool_id": "",
-            "color": "#FFFFFF",
-            "weight": "0",
+            "color": "",
+            "weight": "",
             "extruder_temp": null,
             "runout_lane": "NONE",
-            "filament_status": "In Tool",
-            "filament_status_led": "#0000ff",
-            "status": "Tool Unloading"
+            "filament_status": "Not Ready",
+            "filament_status_led": "#ff0000",
+            "status": null
         },
         "lane3": {
             "name": "lane3",
@@ -94,7 +94,7 @@
         }
     },
     "system": {
-        "current_load": "lane2",
+        "current_load": "",
         "num_units": 1,
         "num_lanes": 4,
         "num_extruders": 4,
@@ -103,7 +103,7 @@
                 "lane_loaded": "lane1"
             },
             "extruder1": {
-                "lane_loaded": "lane2"
+                "lane_loaded": ""
             },
             "extruder2": {
                 "lane_loaded": "lane3"
