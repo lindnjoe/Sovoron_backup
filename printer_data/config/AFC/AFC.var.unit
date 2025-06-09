@@ -75,13 +75,13 @@
             "hub": "direct",
             "extruder": "extruder3",
             "buffer": "TN3",
-            "buffer_status": "Advancing",
+            "buffer_status": "Trailing",
             "lane": 4,
             "map": "TT3",
             "load": true,
             "prep": true,
             "tool_loaded": false,
-            "loaded_to_hub": false,
+            "loaded_to_hub": true,
             "material": null,
             "spool_id": "",
             "color": "",
@@ -90,7 +90,7 @@
             "runout_lane": "NONE",
             "filament_status": "Ready",
             "filament_status_led": "#00cc00",
-            "status": "Tool Loading"
+            "status": "Tool Loaded"
         }
     },
     "system": {
