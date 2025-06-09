@@ -90,11 +90,11 @@
             "runout_lane": "NONE",
             "filament_status": "Not Ready",
             "filament_status_led": "#ff0000",
-            "status": "Tool Unloading"
+            "status": null
         }
     },
     "system": {
-        "current_load": null,
+        "current_load": "",
         "num_units": 1,
         "num_lanes": 4,
         "num_extruders": 4,
@@ -109,7 +109,7 @@
                 "lane_loaded": "lane3"
             },
             "extruder3": {
-                "lane_loaded": null
+                "lane_loaded": ""
             }
         },
         "bypass": {
