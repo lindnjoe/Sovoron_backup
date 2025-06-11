@@ -13,10 +13,10 @@
             "prep": true,
             "tool_loaded": true,
             "loaded_to_hub": true,
-            "material": null,
+            "material": "PLA",
             "spool_id": "",
-            "color": "#B5C467",
-            "weight": "1000",
+            "color": "#6767C4",
+            "weight": "700",
             "extruder_temp": null,
             "runout_lane": "NONE",
             "filament_status": "In Tool",
@@ -94,7 +94,7 @@
         }
     },
     "system": {
-        "current_load": "lane1",
+        "current_load": "lane3",
         "num_units": 1,
         "num_lanes": 4,
         "num_extruders": 4,
