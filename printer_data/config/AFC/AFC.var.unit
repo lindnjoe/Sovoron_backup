@@ -3,9 +3,9 @@
         "lane1": {
             "name": "lane1",
             "unit": "Turtle_1",
-            "hub": "Turtle_1",
+            "hub": "direct",
             "extruder": "extruder",
-            "buffer": "Turtle_1",
+            "buffer": "TN",
             "buffer_status": "Advancing",
             "lane": 1,
             "map": "TT0",
@@ -14,9 +14,6 @@
             "tool_loaded": false,
             "loaded_to_hub": false,
             "material": null,
-            "density": 1.24,
-            "diameter": 1.75,
-            "empty_spool_weight": 190,
             "spool_id": null,
             "color": null,
             "weight": 0,
@@ -29,9 +26,9 @@
         "lane2": {
             "name": "lane2",
             "unit": "Turtle_1",
-            "hub": "Turtle_1",
+            "hub": "direct",
             "extruder": "extruder1",
-            "buffer": "Turtle_1",
+            "buffer": "TN1",
             "buffer_status": "Advancing",
             "lane": 2,
             "map": "TT1",
@@ -40,9 +37,6 @@
             "tool_loaded": false,
             "loaded_to_hub": false,
             "material": null,
-            "density": 1.24,
-            "diameter": 1.75,
-            "empty_spool_weight": 190,
             "spool_id": null,
             "color": null,
             "weight": 0,
@@ -55,9 +49,9 @@
         "lane3": {
             "name": "lane3",
             "unit": "Turtle_1",
-            "hub": "Turtle_1",
+            "hub": "direct",
             "extruder": "extruder2",
-            "buffer": "Turtle_1",
+            "buffer": "TN2",
             "buffer_status": "Advancing",
             "lane": 3,
             "map": "TT2",
@@ -66,9 +60,6 @@
             "tool_loaded": false,
             "loaded_to_hub": false,
             "material": null,
-            "density": 1.24,
-            "diameter": 1.75,
-            "empty_spool_weight": 190,
             "spool_id": null,
             "color": null,
             "weight": 0,
@@ -81,10 +72,10 @@
         "lane4": {
             "name": "lane4",
             "unit": "Turtle_1",
-            "hub": "Turtle_1",
+            "hub": "direct",
             "extruder": "extruder3",
-            "buffer": "Turtle_1",
-            "buffer_status": "Advancing",
+            "buffer": "TN3",
+            "buffer_status": "Unknown",
             "lane": 4,
             "map": "TT3",
             "load": true,
@@ -92,9 +83,6 @@
             "tool_loaded": false,
             "loaded_to_hub": false,
             "material": null,
-            "density": 1.24,
-            "diameter": 1.75,
-            "empty_spool_weight": 190,
             "spool_id": null,
             "color": null,
             "weight": 0,
@@ -111,7 +99,16 @@
         "num_lanes": 4,
         "num_extruders": 4,
         "extruders": {
-            "extruder, extruder1, extruder2, extruder3": {
+            "extruder": {
+                "lane_loaded": null
+            },
+            "extruder1": {
+                "lane_loaded": null
+            },
+            "extruder2": {
+                "lane_loaded": null
+            },
+            "extruder3": {
                 "lane_loaded": null
             }
         },
