@@ -121,7 +121,7 @@
                 "lane_loaded": "lane3"
             },
             "extruder3": {
-                "lane_loaded": ""
+                "lane_loaded": null
             }
         },
         "bypass": {
