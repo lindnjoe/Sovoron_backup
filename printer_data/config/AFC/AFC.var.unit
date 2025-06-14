@@ -38,7 +38,7 @@
             "loaded_to_hub": true,
             "material": "PLA",
             "spool_id": "",
-            "color": "#855D5D",
+            "color": "#F7F5F5",
             "weight": "343",
             "extruder_temp": null,
             "runout_lane": "NONE",
