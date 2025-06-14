@@ -44,7 +44,7 @@
             "runout_lane": "NONE",
             "filament_status": "Ready",
             "filament_status_led": "#00cc00",
-            "status": null
+            "status": "Tooled"
         },
         "lane3": {
             "name": "lane3",
@@ -67,7 +67,7 @@
             "runout_lane": "NONE",
             "filament_status": "Ready",
             "filament_status_led": "#00cc00",
-            "status": null
+            "status": "Tooled"
         },
         "lane4": {
             "name": "lane4",
@@ -90,7 +90,7 @@
             "runout_lane": "NONE",
             "filament_status": "Ready",
             "filament_status_led": "#00cc00",
-            "status": "Loaded"
+            "status": "Tooled"
         }
     },
     "system": {
@@ -103,13 +103,13 @@
                 "lane_loaded": "lane1"
             },
             "extruder1": {
-                "lane_loaded": ""
+                "lane_loaded": "lane2"
             },
             "extruder2": {
-                "lane_loaded": ""
+                "lane_loaded": "lane3"
             },
             "extruder3": {
-                "lane_loaded": null
+                "lane_loaded": "lane4"
             }
         },
         "bypass": {
