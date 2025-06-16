@@ -84,7 +84,7 @@
             "hub": "Turtle_1",
             "extruder": "extruder3",
             "buffer": "TN3",
-            "buffer_status": "Unknown",
+            "buffer_status": "Advancing",
             "lane": 4,
             "map": "T3",
             "load": true,
