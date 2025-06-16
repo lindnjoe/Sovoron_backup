@@ -111,7 +111,7 @@
         "num_lanes": 4,
         "num_extruders": 4,
         "extruders": {
-            "extruder, extruder1, extruder2, extruder3": {
+            "extruder": {
                 "lane_loaded": null
             },
             "extruder1": {
