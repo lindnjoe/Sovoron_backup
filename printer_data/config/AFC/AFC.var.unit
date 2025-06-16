@@ -102,7 +102,7 @@
             "runout_lane": "NONE",
             "filament_status": "Ready",
             "filament_status_led": "#00cc00",
-            "status": "Tool Unloading"
+            "status": "None"
         }
     },
     "system": {
@@ -112,7 +112,7 @@
         "num_extruders": 4,
         "extruders": {
             "extruder": {
-                "lane_loaded": null
+                "lane_loaded": ""
             },
             "extruder1": {
                 "lane_loaded": null
