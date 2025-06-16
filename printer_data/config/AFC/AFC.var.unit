@@ -12,7 +12,7 @@
             "load": true,
             "prep": true,
             "tool_loaded": false,
-            "loaded_to_hub": false,
+            "loaded_to_hub": true,
             "material": null,
             "density": 1.24,
             "diameter": 1.75,
@@ -24,7 +24,7 @@
             "runout_lane": "NONE",
             "filament_status": "Ready",
             "filament_status_led": "#00cc00",
-            "status": "Tool Loading"
+            "status": "Error"
         },
         "lane2": {
             "name": "lane2",
