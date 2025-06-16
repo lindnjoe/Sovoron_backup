@@ -58,14 +58,14 @@
             "hub": "direct",
             "extruder": "extruder2",
             "buffer": "TN2",
-            "buffer_status": "Advancing",
+            "buffer_status": "Trailing",
             "lane": 3,
             "map": "TT2",
             "load": true,
             "prep": true,
             "tool_loaded": false,
-            "loaded_to_hub": false,
-            "material": "",
+            "loaded_to_hub": true,
+            "material": null,
             "density": 1.24,
             "diameter": 1.75,
             "empty_spool_weight": 190,
@@ -76,7 +76,7 @@
             "runout_lane": "NONE",
             "filament_status": "Ready",
             "filament_status_led": "#00cc00",
-            "status": "Tool Loading"
+            "status": "Error"
         },
         "lane4": {
             "name": "lane4",
