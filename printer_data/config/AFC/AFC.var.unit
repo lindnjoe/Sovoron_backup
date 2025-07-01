@@ -117,7 +117,7 @@
             "map": "T5",
             "load": true,
             "prep": true,
-            "tool_loaded": true,
+            "tool_loaded": false,
             "loaded_to_hub": false,
             "material": "PLA",
             "density": 1.24,
@@ -128,9 +128,9 @@
             "weight": 549,
             "extruder_temp": null,
             "runout_lane": null,
-            "filament_status": "In Tool",
-            "filament_status_led": "#0000ff",
-            "status": "Tool Unloading"
+            "filament_status": "Ready",
+            "filament_status_led": "#00cc00",
+            "status": "None"
         },
         "lane10": {
             "name": "lane10",
@@ -318,7 +318,7 @@
         }
     },
     "system": {
-        "current_load": "lane6",
+        "current_load": null,
         "num_units": 3,
         "num_lanes": 12,
         "num_extruders": 6,
@@ -339,7 +339,7 @@
                 "lane_loaded": "lane8"
             },
             "extruder5": {
-                "lane_loaded": "lane6"
+                "lane_loaded": null
             }
         },
         "bypass": {
