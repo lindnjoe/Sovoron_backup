@@ -102,7 +102,7 @@
             "runout_lane": null,
             "filament_status": "In Tool",
             "filament_status_led": "#0000ff",
-            "status": "Loaded"
+            "status": "Tool Unloading"
         }
     },
     "AMS_2": {
