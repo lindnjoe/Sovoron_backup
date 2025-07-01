@@ -249,7 +249,7 @@
             "map": "T1",
             "load": false,
             "prep": true,
-            "tool_loaded": true,
+            "tool_loaded": false,
             "loaded_to_hub": true,
             "material": "",
             "density": 1.24,
@@ -262,7 +262,7 @@
             "runout_lane": null,
             "filament_status": "Prep",
             "filament_status_led": "#ffffff",
-            "status": "Tool Unloading"
+            "status": "Loaded"
         },
         "lane3": {
             "name": "lane3",
@@ -318,7 +318,7 @@
         }
     },
     "system": {
-        "current_load": "lane2",
+        "current_load": null,
         "num_units": 3,
         "num_lanes": 12,
         "num_extruders": 6,
@@ -327,7 +327,7 @@
                 "lane_loaded": "lane1"
             },
             "extruder1": {
-                "lane_loaded": "lane2"
+                "lane_loaded": null
             },
             "extruder2": {
                 "lane_loaded": "lane3"
