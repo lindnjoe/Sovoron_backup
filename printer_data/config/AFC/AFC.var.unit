@@ -220,7 +220,7 @@
             "buffer": "TN",
             "buffer_status": "Advancing",
             "lane": 1,
-            "map": "T1",
+            "map": "T0",
             "load": true,
             "prep": true,
             "tool_loaded": true,
@@ -246,7 +246,7 @@
             "buffer": "TN1",
             "buffer_status": "Advancing",
             "lane": 2,
-            "map": "T0",
+            "map": "T1",
             "load": true,
             "prep": true,
             "tool_loaded": true,
@@ -318,7 +318,7 @@
         }
     },
     "system": {
-        "current_load": "lane2",
+        "current_load": "lane1",
         "num_units": 3,
         "num_lanes": 12,
         "num_extruders": 6,
